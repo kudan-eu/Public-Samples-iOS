@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66200D931EE07C9300A23776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200D921EE07C9300A23776 /* main.m */; };
+		66200D961EE07C9300A23776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200D951EE07C9300A23776 /* AppDelegate.m */; };
+		66200D9C1EE07C9300A23776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66200D9A1EE07C9300A23776 /* Main.storyboard */; };
+		66200D9E1EE07C9300A23776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66200D9D1EE07C9300A23776 /* Assets.xcassets */; };
+		66200DA11EE07C9300A23776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66200D9F1EE07C9300A23776 /* LaunchScreen.storyboard */; };
+		66200DAD1EE07D2100A23776 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 66200DAC1EE07D2100A23776 /* libc++.tbd */; };
+		66200DB01EE0805C00A23776 /* ExtractedCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200DAE1EE0805C00A23776 /* ExtractedCameraViewController.m */; };
+		66200DB21EE0807400A23776 /* heartbeat.armodel in Resources */ = {isa = PBXBuildFile; fileRef = 66200DB11EE0807400A23776 /* heartbeat.armodel */; };
+		66200DB81EE085A400A23776 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200DB71EE085A400A23776 /* TitleViewController.m */; };
+		66200DC81EE0881E00A23776 /* PanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200DC71EE0881E00A23776 /* PanoramaViewController.m */; };
+		66200DCC1EE0886A00A23776 /* MarkerToMarkerlessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200DCB1EE0886A00A23776 /* MarkerToMarkerlessViewController.m */; };
+		66200DD51EE14B7100A23776 /* MultipleMarkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200DD41EE14B7100A23776 /* MultipleMarkerViewController.m */; };
+		66200DD71EE14B7800A23776 /* albumMarkers.KARMarker in Resources */ = {isa = PBXBuildFile; fileRef = 66200DD61EE14B7800A23776 /* albumMarkers.KARMarker */; };
+		66200DDC1EE14CFE00A23776 /* MarkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200DDB1EE14CFE00A23776 /* MarkerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66200D8E1EE07C9300A23776 /* Public Code Samples iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Public Code Samples iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66200D921EE07C9300A23776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66200D941EE07C9300A23776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66200D951EE07C9300A23776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66200D9B1EE07C9300A23776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66200D9D1EE07C9300A23776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66200DA01EE07C9300A23776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66200DA21EE07C9300A23776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66200DAC1EE07D2100A23776 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		66200DAE1EE0805C00A23776 /* ExtractedCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtractedCameraViewController.m; sourceTree = "<group>"; };
+		66200DAF1EE0805C00A23776 /* ExtractedCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtractedCameraViewController.h; sourceTree = "<group>"; };
+		66200DB11EE0807400A23776 /* heartbeat.armodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = heartbeat.armodel; sourceTree = "<group>"; };
+		66200DB61EE085A400A23776 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		66200DB71EE085A400A23776 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		66200DC61EE0881E00A23776 /* PanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaViewController.h; sourceTree = "<group>"; };
+		66200DC71EE0881E00A23776 /* PanoramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaViewController.m; sourceTree = "<group>"; };
+		66200DCA1EE0886A00A23776 /* MarkerToMarkerlessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerToMarkerlessViewController.h; sourceTree = "<group>"; };
+		66200DCB1EE0886A00A23776 /* MarkerToMarkerlessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerToMarkerlessViewController.m; sourceTree = "<group>"; };
+		66200DD31EE14B7100A23776 /* MultipleMarkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleMarkerViewController.h; sourceTree = "<group>"; };
+		66200DD41EE14B7100A23776 /* MultipleMarkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleMarkerViewController.m; sourceTree = "<group>"; };
+		66200DD61EE14B7800A23776 /* albumMarkers.KARMarker */ = {isa = PBXFileReference; lastKnownFileType = file; path = albumMarkers.KARMarker; sourceTree = "<group>"; };
+		66200DDA1EE14CFE00A23776 /* MarkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerViewController.h; sourceTree = "<group>"; };
+		66200DDB1EE14CFE00A23776 /* MarkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66200D8B1EE07C9300A23776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66200DAD1EE07D2100A23776 /* libc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66200D851EE07C9300A23776 = {
+			isa = PBXGroup;
+			children = (
+				66200D901EE07C9300A23776 /* Public Code Samples iOS */,
+				66200D8F1EE07C9300A23776 /* Products */,
+				66200DAB1EE07D2100A23776 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66200D8F1EE07C9300A23776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66200D8E1EE07C9300A23776 /* Public Code Samples iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66200D901EE07C9300A23776 /* Public Code Samples iOS */ = {
+			isa = PBXGroup;
+			children = (
+				66200D941EE07C9300A23776 /* AppDelegate.h */,
+				66200D951EE07C9300A23776 /* AppDelegate.m */,
+				66200DB61EE085A400A23776 /* TitleViewController.h */,
+				66200DB71EE085A400A23776 /* TitleViewController.m */,
+				66200DDD1EE14D0900A23776 /* Marker */,
+				66200DD91EE14B8500A23776 /* Multiple Marker */,
+				66200DCD1EE0886E00A23776 /* MarkerMarkerless */,
+				66200DC91EE0882600A23776 /* Panorama */,
+				66200DB31EE0807C00A23776 /* Extracted Camera */,
+				66200D9A1EE07C9300A23776 /* Main.storyboard */,
+				66200D9D1EE07C9300A23776 /* Assets.xcassets */,
+				66200D9F1EE07C9300A23776 /* LaunchScreen.storyboard */,
+				66200DA21EE07C9300A23776 /* Info.plist */,
+				66200D911EE07C9300A23776 /* Supporting Files */,
+			);
+			path = "Public Code Samples iOS";
+			sourceTree = "<group>";
+		};
+		66200D911EE07C9300A23776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66200D921EE07C9300A23776 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66200DAB1EE07D2100A23776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66200DAC1EE07D2100A23776 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66200DB31EE0807C00A23776 /* Extracted Camera */ = {
+			isa = PBXGroup;
+			children = (
+				66200DAF1EE0805C00A23776 /* ExtractedCameraViewController.h */,
+				66200DAE1EE0805C00A23776 /* ExtractedCameraViewController.m */,
+				66200DB11EE0807400A23776 /* heartbeat.armodel */,
+			);
+			name = "Extracted Camera";
+			sourceTree = "<group>";
+		};
+		66200DC91EE0882600A23776 /* Panorama */ = {
+			isa = PBXGroup;
+			children = (
+				66200DC61EE0881E00A23776 /* PanoramaViewController.h */,
+				66200DC71EE0881E00A23776 /* PanoramaViewController.m */,
+			);
+			name = Panorama;
+			sourceTree = "<group>";
+		};
+		66200DCD1EE0886E00A23776 /* MarkerMarkerless */ = {
+			isa = PBXGroup;
+			children = (
+				66200DCA1EE0886A00A23776 /* MarkerToMarkerlessViewController.h */,
+				66200DCB1EE0886A00A23776 /* MarkerToMarkerlessViewController.m */,
+			);
+			name = MarkerMarkerless;
+			sourceTree = "<group>";
+		};
+		66200DD91EE14B8500A23776 /* Multiple Marker */ = {
+			isa = PBXGroup;
+			children = (
+				66200DD31EE14B7100A23776 /* MultipleMarkerViewController.h */,
+				66200DD41EE14B7100A23776 /* MultipleMarkerViewController.m */,
+				66200DD61EE14B7800A23776 /* albumMarkers.KARMarker */,
+			);
+			name = "Multiple Marker";
+			sourceTree = "<group>";
+		};
+		66200DDD1EE14D0900A23776 /* Marker */ = {
+			isa = PBXGroup;
+			children = (
+				66200DDA1EE14CFE00A23776 /* MarkerViewController.h */,
+				66200DDB1EE14CFE00A23776 /* MarkerViewController.m */,
+			);
+			name = Marker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66200D8D1EE07C9300A23776 /* Public Code Samples iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66200DA51EE07C9300A23776 /* Build configuration list for PBXNativeTarget "Public Code Samples iOS" */;
+			buildPhases = (
+				66200D8A1EE07C9300A23776 /* Sources */,
+				66200D8B1EE07C9300A23776 /* Frameworks */,
+				66200D8C1EE07C9300A23776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Public Code Samples iOS";
+			productName = "Public Code Samples iOS";
+			productReference = 66200D8E1EE07C9300A23776 /* Public Code Samples iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66200D861EE07C9300A23776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Matthew Robbins";
+				TargetAttributes = {
+					66200D8D1EE07C9300A23776 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 66200D891EE07C9300A23776 /* Build configuration list for PBXProject "Public Code Samples iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66200D851EE07C9300A23776;
+			productRefGroup = 66200D8F1EE07C9300A23776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66200D8D1EE07C9300A23776 /* Public Code Samples iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66200D8C1EE07C9300A23776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66200DA11EE07C9300A23776 /* LaunchScreen.storyboard in Resources */,
+				66200D9E1EE07C9300A23776 /* Assets.xcassets in Resources */,
+				66200D9C1EE07C9300A23776 /* Main.storyboard in Resources */,
+				66200DB21EE0807400A23776 /* heartbeat.armodel in Resources */,
+				66200DD71EE14B7800A23776 /* albumMarkers.KARMarker in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66200D8A1EE07C9300A23776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66200D961EE07C9300A23776 /* AppDelegate.m in Sources */,
+				66200DB81EE085A400A23776 /* TitleViewController.m in Sources */,
+				66200DDC1EE14CFE00A23776 /* MarkerViewController.m in Sources */,
+				66200DC81EE0881E00A23776 /* PanoramaViewController.m in Sources */,
+				66200DB01EE0805C00A23776 /* ExtractedCameraViewController.m in Sources */,
+				66200DCC1EE0886A00A23776 /* MarkerToMarkerlessViewController.m in Sources */,
+				66200D931EE07C9300A23776 /* main.m in Sources */,
+				66200DD51EE14B7100A23776 /* MultipleMarkerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66200D9A1EE07C9300A23776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66200D9B1EE07C9300A23776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66200D9F1EE07C9300A23776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66200DA01EE07C9300A23776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66200DA31EE07C9300A23776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66200DA41EE07C9300A23776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66200DA61EE07C9300A23776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Public Code Samples iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.ar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		66200DA71EE07C9300A23776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Public Code Samples iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.ar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66200D891EE07C9300A23776 /* Build configuration list for PBXProject "Public Code Samples iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66200DA31EE07C9300A23776 /* Debug */,
+				66200DA41EE07C9300A23776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66200DA51EE07C9300A23776 /* Build configuration list for PBXNativeTarget "Public Code Samples iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66200DA61EE07C9300A23776 /* Debug */,
+				66200DA71EE07C9300A23776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66200D861EE07C9300A23776 /* Project object */;
+}
