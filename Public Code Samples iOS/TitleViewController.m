@@ -21,7 +21,7 @@
     
     self.title = @"Kudan Samples";
     
-    self.viewControllers = @[@"Extracted Camera",@"Panorama",@"Marker To Markerless",@"Multiple Marker",@"Marker",@"Markerless Wall",@"Markerless Floor",@"Lighting",@"Simultaneous Tracking"];
+    self.viewControllers = @[@"Extracted Camera",@"Panorama",@"Marker to Markerless",@"Multiple Marker",@"Marker",@"Markerless Wall",@"Markerless Floor",@"Lighting",@"Simultaneous Tracking"];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
