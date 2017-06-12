@@ -21,6 +21,17 @@
 		66200DD51EE14B7100A23776 /* MultipleMarkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200DD41EE14B7100A23776 /* MultipleMarkerViewController.m */; };
 		66200DD71EE14B7800A23776 /* albumMarkers.KARMarker in Resources */ = {isa = PBXBuildFile; fileRef = 66200DD61EE14B7800A23776 /* albumMarkers.KARMarker */; };
 		66200DDC1EE14CFE00A23776 /* MarkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66200DDB1EE14CFE00A23776 /* MarkerViewController.m */; };
+		6631291F1EEEE9D200BAB4B5 /* MarkerlessWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6631291E1EEEE9D200BAB4B5 /* MarkerlessWallViewController.m */; };
+		663129261EEEEB3300BAB4B5 /* MarkerlessFloorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663129251EEEEB3300BAB4B5 /* MarkerlessFloorViewController.m */; };
+		663129401EEEED8600BAB4B5 /* HakataRamen_d.small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 663129371EEEED8600BAB4B5 /* HakataRamen_d.small.jpg */; };
+		663129411EEEED8600BAB4B5 /* HakataRamen_u.small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 663129381EEEED8600BAB4B5 /* HakataRamen_u.small.jpg */; };
+		663129421EEEED8600BAB4B5 /* HakataRamen_b.small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 663129391EEEED8600BAB4B5 /* HakataRamen_b.small.jpg */; };
+		663129431EEEED8600BAB4B5 /* HakataRamen_r.small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6631293A1EEEED8600BAB4B5 /* HakataRamen_r.small.jpg */; };
+		663129441EEEED8600BAB4B5 /* HakataRamen_l.small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6631293B1EEEED8600BAB4B5 /* HakataRamen_l.small.jpg */; };
+		663129451EEEED8600BAB4B5 /* HakataRamen_f.small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6631293C1EEEED8600BAB4B5 /* HakataRamen_f.small.jpg */; };
+		663129461EEEED8600BAB4B5 /* sphere.armodel in Resources */ = {isa = PBXBuildFile; fileRef = 6631293D1EEEED8600BAB4B5 /* sphere.armodel */; };
+		663129471EEEED8600BAB4B5 /* LightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6631293F1EEEED8600BAB4B5 /* LightingViewController.m */; };
+		6631294B1EEEEE1600BAB4B5 /* SimultaneousTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6631294A1EEEEE1600BAB4B5 /* SimultaneousTrackingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +58,21 @@
 		66200DD61EE14B7800A23776 /* albumMarkers.KARMarker */ = {isa = PBXFileReference; lastKnownFileType = file; path = albumMarkers.KARMarker; sourceTree = "<group>"; };
 		66200DDA1EE14CFE00A23776 /* MarkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerViewController.h; sourceTree = "<group>"; };
 		66200DDB1EE14CFE00A23776 /* MarkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerViewController.m; sourceTree = "<group>"; };
+		6631291D1EEEE9D200BAB4B5 /* MarkerlessWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerlessWallViewController.h; sourceTree = "<group>"; };
+		6631291E1EEEE9D200BAB4B5 /* MarkerlessWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerlessWallViewController.m; sourceTree = "<group>"; };
+		663129241EEEEB3300BAB4B5 /* MarkerlessFloorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerlessFloorViewController.h; sourceTree = "<group>"; };
+		663129251EEEEB3300BAB4B5 /* MarkerlessFloorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerlessFloorViewController.m; sourceTree = "<group>"; };
+		663129371EEEED8600BAB4B5 /* HakataRamen_d.small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HakataRamen_d.small.jpg; sourceTree = "<group>"; };
+		663129381EEEED8600BAB4B5 /* HakataRamen_u.small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HakataRamen_u.small.jpg; sourceTree = "<group>"; };
+		663129391EEEED8600BAB4B5 /* HakataRamen_b.small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HakataRamen_b.small.jpg; sourceTree = "<group>"; };
+		6631293A1EEEED8600BAB4B5 /* HakataRamen_r.small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HakataRamen_r.small.jpg; sourceTree = "<group>"; };
+		6631293B1EEEED8600BAB4B5 /* HakataRamen_l.small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HakataRamen_l.small.jpg; sourceTree = "<group>"; };
+		6631293C1EEEED8600BAB4B5 /* HakataRamen_f.small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HakataRamen_f.small.jpg; sourceTree = "<group>"; };
+		6631293D1EEEED8600BAB4B5 /* sphere.armodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = sphere.armodel; sourceTree = "<group>"; };
+		6631293E1EEEED8600BAB4B5 /* LightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightingViewController.h; sourceTree = "<group>"; };
+		6631293F1EEEED8600BAB4B5 /* LightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightingViewController.m; sourceTree = "<group>"; };
+		663129491EEEEE1600BAB4B5 /* SimultaneousTrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimultaneousTrackingViewController.h; sourceTree = "<group>"; };
+		6631294A1EEEEE1600BAB4B5 /* SimultaneousTrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimultaneousTrackingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +111,15 @@
 				66200D951EE07C9300A23776 /* AppDelegate.m */,
 				66200DB61EE085A400A23776 /* TitleViewController.h */,
 				66200DB71EE085A400A23776 /* TitleViewController.m */,
+				66200DB31EE0807C00A23776 /* Extracted Camera */,
+				663129481EEEED8A00BAB4B5 /* Lighting */,
+				663129271EEEEB3D00BAB4B5 /* Markerless Floor */,
+				663129201EEEE9D500BAB4B5 /* Markerless Wall */,
 				66200DDD1EE14D0900A23776 /* Marker */,
 				66200DD91EE14B8500A23776 /* Multiple Marker */,
 				66200DCD1EE0886E00A23776 /* MarkerMarkerless */,
+				6631294C1EEEEE1A00BAB4B5 /* Simultaneous Tracking */,
 				66200DC91EE0882600A23776 /* Panorama */,
-				66200DB31EE0807C00A23776 /* Extracted Camera */,
 				66200D9A1EE07C9300A23776 /* Main.storyboard */,
 				66200D9D1EE07C9300A23776 /* Assets.xcassets */,
 				66200D9F1EE07C9300A23776 /* LaunchScreen.storyboard */,
@@ -162,6 +192,49 @@
 			name = Marker;
 			sourceTree = "<group>";
 		};
+		663129201EEEE9D500BAB4B5 /* Markerless Wall */ = {
+			isa = PBXGroup;
+			children = (
+				6631291D1EEEE9D200BAB4B5 /* MarkerlessWallViewController.h */,
+				6631291E1EEEE9D200BAB4B5 /* MarkerlessWallViewController.m */,
+			);
+			name = "Markerless Wall";
+			sourceTree = "<group>";
+		};
+		663129271EEEEB3D00BAB4B5 /* Markerless Floor */ = {
+			isa = PBXGroup;
+			children = (
+				663129241EEEEB3300BAB4B5 /* MarkerlessFloorViewController.h */,
+				663129251EEEEB3300BAB4B5 /* MarkerlessFloorViewController.m */,
+			);
+			name = "Markerless Floor";
+			sourceTree = "<group>";
+		};
+		663129481EEEED8A00BAB4B5 /* Lighting */ = {
+			isa = PBXGroup;
+			children = (
+				663129371EEEED8600BAB4B5 /* HakataRamen_d.small.jpg */,
+				663129381EEEED8600BAB4B5 /* HakataRamen_u.small.jpg */,
+				663129391EEEED8600BAB4B5 /* HakataRamen_b.small.jpg */,
+				6631293A1EEEED8600BAB4B5 /* HakataRamen_r.small.jpg */,
+				6631293B1EEEED8600BAB4B5 /* HakataRamen_l.small.jpg */,
+				6631293C1EEEED8600BAB4B5 /* HakataRamen_f.small.jpg */,
+				6631293D1EEEED8600BAB4B5 /* sphere.armodel */,
+				6631293E1EEEED8600BAB4B5 /* LightingViewController.h */,
+				6631293F1EEEED8600BAB4B5 /* LightingViewController.m */,
+			);
+			name = Lighting;
+			sourceTree = "<group>";
+		};
+		6631294C1EEEEE1A00BAB4B5 /* Simultaneous Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				663129491EEEEE1600BAB4B5 /* SimultaneousTrackingViewController.h */,
+				6631294A1EEEEE1600BAB4B5 /* SimultaneousTrackingViewController.m */,
+			);
+			name = "Simultaneous Tracking";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,9 +293,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663129411EEEED8600BAB4B5 /* HakataRamen_u.small.jpg in Resources */,
 				66200DA11EE07C9300A23776 /* LaunchScreen.storyboard in Resources */,
+				663129451EEEED8600BAB4B5 /* HakataRamen_f.small.jpg in Resources */,
+				663129461EEEED8600BAB4B5 /* sphere.armodel in Resources */,
 				66200D9E1EE07C9300A23776 /* Assets.xcassets in Resources */,
+				663129431EEEED8600BAB4B5 /* HakataRamen_r.small.jpg in Resources */,
+				663129421EEEED8600BAB4B5 /* HakataRamen_b.small.jpg in Resources */,
 				66200D9C1EE07C9300A23776 /* Main.storyboard in Resources */,
+				663129401EEEED8600BAB4B5 /* HakataRamen_d.small.jpg in Resources */,
+				663129441EEEED8600BAB4B5 /* HakataRamen_l.small.jpg in Resources */,
 				66200DB21EE0807400A23776 /* heartbeat.armodel in Resources */,
 				66200DD71EE14B7800A23776 /* albumMarkers.KARMarker in Resources */,
 			);
@@ -236,12 +316,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				66200D961EE07C9300A23776 /* AppDelegate.m in Sources */,
+				6631291F1EEEE9D200BAB4B5 /* MarkerlessWallViewController.m in Sources */,
 				66200DB81EE085A400A23776 /* TitleViewController.m in Sources */,
 				66200DDC1EE14CFE00A23776 /* MarkerViewController.m in Sources */,
 				66200DC81EE0881E00A23776 /* PanoramaViewController.m in Sources */,
 				66200DB01EE0805C00A23776 /* ExtractedCameraViewController.m in Sources */,
+				663129471EEEED8600BAB4B5 /* LightingViewController.m in Sources */,
+				663129261EEEEB3300BAB4B5 /* MarkerlessFloorViewController.m in Sources */,
 				66200DCC1EE0886A00A23776 /* MarkerToMarkerlessViewController.m in Sources */,
 				66200D931EE07C9300A23776 /* main.m in Sources */,
+				6631294B1EEEEE1600BAB4B5 /* SimultaneousTrackingViewController.m in Sources */,
 				66200DD51EE14B7100A23776 /* MultipleMarkerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
